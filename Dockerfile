@@ -1,5 +1,5 @@
 FROM python:3.6
 
-ADD script.py /
+ADD script.py .
 
-CMD python /script.py
+CMD python script.py
